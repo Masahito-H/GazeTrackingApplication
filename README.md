@@ -8,6 +8,7 @@ After the gaze tracking, this application outputs subject’s gaze data(csv form
 This repository doesn’t commit csv files(simulation data&lowast;) because of capacity over.  
 &lowast;simulation data is made by [BoidGenerator](https://github.com/Masahito-H/BoidGenerator) or [VehiclesGenerator](https://github.com/Masahito-H/VehiclesGenerator)
 
+## About license
 This application uses [webgazer.js](https://webgazer.cs.brown.edu/)  
 Copyright (c) 2018 Brown HCI Group.
 
