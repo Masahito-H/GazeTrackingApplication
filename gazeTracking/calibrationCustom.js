@@ -141,15 +141,6 @@ $(document).ready(function(){
                             //clear the calibration & hide the last middle button
                             GenerativeModeFlag = true;
                             ClearCanvas();
-                            /*//
-                            window.addEventListener('keydown', function(event){
-                              var canvas = document.getElementById("plotting_canvas");
-                              var ct = canvas.getContext('2d');
-                              ct.beginPath();
-                              ct.arc(canvas.width / 2 + Math.random() * 50 - 25, canvas.height / 2 + Math.random() * 50 - 25, Math.random() * 5, 0, 2 * Math.PI);
-                              ct.stroke();
-                            });
-                            *///
                           } else {
                             //use restart function to restart the calibration
                             GenerativeModeFlag = false;
@@ -165,11 +156,6 @@ $(document).ready(function(){
     });
 
     window.addEventListener('keydown', function(event){
-      /*
-      var canvas = document.getElementById("plotting_canvas");
-      var ct = canvas.getContext('2d');
-      */
-
       var navText = null;
       switch(event.key){
         case "1":
@@ -248,15 +234,6 @@ $(document).ready(function(){
           Path = null;
           break;
       }
-
-
-      //getCSV();
-
-      /*
-      ct.beginPath();
-      ct.arc(canvas.width / 2 + Math.random() * 500 - 250, canvas.height / 2 + Math.random() * 500 - 250, Math.random() * 5, 0, 2 * Math.PI);
-      ct.stroke();
-      */
     });
 });
 

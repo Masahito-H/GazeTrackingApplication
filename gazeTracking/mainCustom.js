@@ -35,7 +35,7 @@ window.onload = function() {
         .setTracker('clmtrackr')
         .setGazeListener(function(data, clock) {
           //console.log(data); /* data is an object containing an x and y key which are the x and y prediction coordinates (no bounds limiting) */
-          //   console.log(clock); /* elapsed time in milliseconds since webgazer.begin() was called */
+          //console.log(clock); /* elapsed time in milliseconds since webgazer.begin() was called */
         })
         .begin()
         .showPredictionPoints(true); /* shows a square every 100 milliseconds where current prediction is */
@@ -81,16 +81,5 @@ function Restart(){
 }
 
 function setBlobUrl() {
-  /*
-    var testing = Parameter.x;
- // 指定されたデータを保持するBlobを作成する。
-    var blob = new Blob([ testing ], { "type" : "application/x-msdownload" });
 
- // Aタグのhref属性にBlobオブジェクトを設定する。
-    window.URL = window.URL || window.webkitURL;
-    document.getElementById("Download").href = window.URL.createObjectURL(blob);
-    document.getElementById("Download").download = "./tmp.txt";
-
-        //console.log(window.URL.createObjectURL(blob));
-      */
 }

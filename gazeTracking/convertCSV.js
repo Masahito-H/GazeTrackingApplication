@@ -142,25 +142,14 @@ function draw(){
           ctxG.fill();
         }
       }
-      else{
-        //console.log(frame[i]);
-      }
     }
 
     UpdateCount++;
   }
 
   if(simulator.length > 0){
-    //console.log(Pred.x + ", " + Pred.y);
     parameters += ("gaze," + fl + "," + Pred.x + "," + Pred.y);
     parameters += "\n";
-
-      /*
-      let end = performance.now();
-      if((end - start) > MIL){
-        Delta += ((end - start) - MIL);
-      }
-      */
 
     FrameCount = Math.floor((performance.now() - StartTime) / MIL);
   }
@@ -210,6 +199,3 @@ function updateView(){
   canvasG.width = view.width;
   canvasG.height = view.height;
 }
-
-
-//getCSV();
