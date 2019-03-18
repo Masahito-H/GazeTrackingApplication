@@ -1,4 +1,4 @@
-# GazeTrackingApplication
+# GazeTrackingWebApplication
 The projects for graduation research: 03
 
 Gaze tracking application including calibration for the video of the Generative Art.  
