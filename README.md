@@ -5,7 +5,7 @@ Gaze tracking application including calibration for the video of the Generative 
 After the gaze tracking, this application outputs subject’s gaze data(csv format).
 
 ## Notice
-This repository doesn’t commit csv files(simulation data&lowast;) because of excess of the file size limit.  
+This repository doesn’t commit csv files(simulation data&lowast;) because of an excess of the file size limit.  
 The following URL can get the files.  
 <https://drive.google.com/open?id=180v_onnhZmPBlNxCYvBnkP20yayrmSrb>
 
