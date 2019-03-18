@@ -5,7 +5,10 @@ Gaze tracking application including calibration for the video of the Generative 
 After the gaze tracking, this application outputs subject’s gaze data(csv format).
 
 ## Notice
-This repository doesn’t commit csv files(simulation data&lowast;) because of capacity over.  
+This repository doesn’t commit csv files(simulation data&lowast;) because of capacity over. 
+The following URL can get the files.  
+<https://drive.google.com/open?id=1Ga9LhV4RIzwg6cWUBqVEmD0_N1nkfPue>
+
 &lowast;simulation data is made by [BoidGenerator](https://github.com/Masahito-H/BoidGenerator) or [VehiclesGenerator](https://github.com/Masahito-H/VehiclesGenerator)
 
 ## About license
